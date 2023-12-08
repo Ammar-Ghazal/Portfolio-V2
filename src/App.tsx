@@ -7,13 +7,11 @@ function App() {
     <div className={styles.backgroundContainer}>
       <div className={styles.stars}>
         <div className={styles.twinkling}></div>
-        {/* Other background elements if needed */}
       </div>
 
-      <div className={styles.scrollable}>
+      <div className={styles.App}>
         <Routes>
           <Route path="/" element={<Home />} />
-          {/* Add more routes or components here */}
         </Routes>
       </div>
     </div>
