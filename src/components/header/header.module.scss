@@ -1,0 +1,27 @@
+.root {
+    text-align: center;
+}
+
+.header {}
+
+.darkModeToggle {
+    color: #EDE6E6;
+    background-color: #F6F0F0;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    padding: 200px;
+    margin: 1px;
+}
+
+.nav {
+    padding: 0px;
+    margin: 0px;
+}
+
+.nav-link {
+    padding: 1rem;
+    margin: 1rem;
+}
